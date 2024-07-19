@@ -5,4 +5,4 @@ __pycache__/
 ### Other ###
 .idea/
 .venv/
-test_api/db.sqlite
+state_api/db.sqlite3
