@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "state-api"
+version = "0.1.0"
+description = "State api"
+authors = ["Taras Dorosh <tdorosh4@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "4.0.6"
+djangorestframework = "3.14.0"
+drf-spectacular = "0.27.0"
+dj-database-url = "2.1.0"
+mysqlclient = "^2.2.4"
+gunicorn = "^22.0.0"
+pytelegrambotapi = "^4.21.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
